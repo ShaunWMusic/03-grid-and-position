@@ -27,7 +27,7 @@ a {
 .nav-bar {
   padding: 1rem;
   width: 100%;
-  background: #47baba;
+  background: #0ad9d9;
   overflow: auto;
 }
 
@@ -49,4 +49,18 @@ a {
 .container {
   max-width: 65rem;
   margin: 0 auto;
+}
+
+.grid {
+  margin: 1rem;
+  width: calc( 100% / 3 - 1rem - 1rem );
+}
+
+.profile__header-card {
+  background: #da310c;
+}
+
+.image {
+  border-radius: 100%;
+  margin: 1rem;
 }
