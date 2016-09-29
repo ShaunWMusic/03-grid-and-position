@@ -25,6 +25,7 @@ a {
 }
 
 .nav-bar {
+  padding: 1rem;
   width: 100%;
   background: #47baba;
   overflow: auto;
