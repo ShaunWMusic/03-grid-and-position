@@ -58,9 +58,14 @@ a {
 
 .profile__header-card {
   background: #da310c;
+  position: relative;
 }
 
 .image {
   border-radius: 100%;
   margin: 1rem;
+  position: absolute;
+  left: -12%;
+  top: 14%;
+  width: 19%;
 }
