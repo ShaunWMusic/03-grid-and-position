@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  font-family: "Pavanam", sans-serif;
 }
 
 img {
@@ -25,11 +26,23 @@ a {
 
 .nav-bar {
   width: 100%;
+  background: #47baba;
+  overflow: auto;
 }
 
+.nav-title {
+  margin: 2rem 1rem;
+  float: left;
+}
   .nav-link {
     font-size: 1.2rem;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
+    overflow: auto;
+  }
+
+  .nav-group__item {
+    float: right;
+    margin: 1rem;
   }
 
 .container {
