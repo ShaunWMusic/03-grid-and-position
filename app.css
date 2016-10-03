@@ -52,7 +52,7 @@ a {
 }
 
 .grid {
-  margin: 1rem;
+  margin: 3rem;
   width: calc( 100% / 3 - 1rem - 1rem );
 }
 
@@ -61,11 +61,24 @@ a {
   position: relative;
 }
 
+.header-card {
+  padding: 1rem;
+  margin: .8rem;
+}
+
+.header-card-week-1 {
+background: yellowgreen;
+position: absolute;
+top: -2.5rem;
+right: 6rem;
+padding: .5rem;
+}
+
 .image {
   border-radius: 100%;
   margin: 1rem;
   position: absolute;
-  left: -12%;
-  top: 14%;
-  width: 19%;
+  left: -2rem;
+  top: -.5rem;
+  width: 15%;
 }
