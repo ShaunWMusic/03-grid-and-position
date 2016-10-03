@@ -25,7 +25,7 @@ a {
 }
 
 .nav-bar {
-  padding: 1rem;
+  padding: 0;
   width: 100%;
   background: #0ad9d9;
   overflow: auto;
@@ -52,13 +52,20 @@ a {
 }
 
 .grid {
-  margin: 3rem;
-  width: calc( 100% / 3 - 1rem - 1rem );
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
 }
 
 .profile__header-card {
   background: #da310c;
   position: relative;
+}
+
+.profile-card {
+  margin: 2rem;
+  width: calc( 70% * 2 / 4 - 1rem - 1rem);
 }
 
 .header-card {
@@ -78,7 +85,7 @@ padding: .5rem;
   border-radius: 100%;
   margin: 1rem;
   position: absolute;
-  left: -2rem;
-  top: -.5rem;
+  left: -2.5rem;
+  top: -.8rem;
   width: 15%;
 }
