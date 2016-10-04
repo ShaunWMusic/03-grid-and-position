@@ -29,6 +29,7 @@ a {
   width: 100%;
   background: #0ad9d9;
   overflow: auto;
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .nav-title {
@@ -44,6 +45,7 @@ a {
   .nav-group__item {
     float: right;
     margin: 1rem;
+
   }
 
 .container {
@@ -61,16 +63,20 @@ a {
 .profile__header-card {
   background: #da310c;
   position: relative;
+  top: -3%;
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .profile-card {
   margin: 2rem;
   width: calc( 70% * 2 / 4 - 1rem - 1rem);
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .header-card {
   padding: 1rem;
   margin: .8rem;
+
 }
 
 .header-card-week-1 {
@@ -79,6 +85,7 @@ position: absolute;
 top: -2.5rem;
 right: 6rem;
 padding: .5rem;
+box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
 .image {
@@ -88,4 +95,5 @@ padding: .5rem;
   left: -2.5rem;
   top: -.8rem;
   width: 15%;
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
