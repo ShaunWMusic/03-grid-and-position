@@ -71,6 +71,7 @@ a {
   margin: 2rem;
   width: calc( 70% * 2 / 4 - 1rem - 1rem);
   box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  min-width: 25%;
 }
 
 .header-card {
@@ -96,4 +97,8 @@ box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
   top: -.8rem;
   width: 15%;
   box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.body-card {
+  margin: 1rem;
 }
