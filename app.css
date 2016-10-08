@@ -63,7 +63,6 @@ a {
 .profile__header-card {
   background: #da310c;
   position: relative;
-  top: -3%;
   box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
@@ -75,17 +74,18 @@ a {
 }
 
 .header-card {
-  padding: 1rem;
-  margin: .8rem;
+  padding: 1rem 1rem 1rem 2rem;
+  margin: -0.2rem;
 
 }
 
 .header-card-week-1 {
+margin: 0;
 background: yellowgreen;
 position: absolute;
-top: -2.5rem;
-right: 6rem;
-padding: .5rem;
+bottom: 100%;
+right: 25%;
+transform: translate( -50%, 50%);padding: .5rem;
 box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
 
@@ -93,8 +93,9 @@ box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
   border-radius: 100%;
   margin: 1rem;
   position: absolute;
-  left: -2.5rem;
-  top: -.8rem;
+  bottom: 22%;
+  right: 81%;
+  transform: translate( -50%, 50%);
   width: 15%;
   box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
