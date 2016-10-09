@@ -92,11 +92,11 @@ box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
 .image {
   border-radius: 100%;
-  margin: 1rem;
+  margin: 0;
   position: absolute;
-  bottom: 22%;
-  right: 81%;
-  transform: translate( -50%, 50%);
+  bottom: 0;
+  right: 100%;
+  transform: translate( 50%, 0);
   width: 15%;
   box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 }
