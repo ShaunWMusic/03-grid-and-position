@@ -37,13 +37,14 @@ a {
   float: left;
 }
   .nav-link {
+    display: inline-block;
+    float: right;
     font-size: 1.2rem;
     margin: 1rem 1rem;
     overflow: auto;
   }
 
   .nav-group__item {
-    float: right;
     margin: 1rem;
 
   }
