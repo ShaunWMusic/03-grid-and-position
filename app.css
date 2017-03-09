@@ -8,8 +8,100 @@ html {
 
 body {
   margin: 0;
+  font-family: "Pavanam", sans-serif;
 }
 
 img {
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-bar {
+  padding: 0;
+  width: 100%;
+  background: #0ad9d9;
+  overflow: auto;
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.nav-title {
+  margin: 2rem 1rem;
+  float: left;
+}
+  .nav-link {
+    display: inline-block;
+    float: right;
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+    overflow: auto;
+  }
+
+  .nav-group__item {
+    margin: 1rem;
+
+  }
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.profile__header-card {
+  background: #da310c;
+  position: relative;
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.profile-card {
+  margin: 2rem;
+  width: calc( 70% * 2 / 4 - 1rem - 1rem);
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  min-width: 25%;
+}
+
+.header-card {
+  padding: 1rem 1rem 1rem 2rem;
+  margin: -0.2rem;
+
+}
+
+.header-card-week-1 {
+margin: 0;
+background: yellowgreen;
+position: absolute;
+top: 0;
+right: 50%;
+transform: translate( 50%, -50%);
+padding: 0.5rem;
+box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.image {
+  border-radius: 100%;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  transform: translate( 50%, 0);
+  width: 15%;
+  box-shadow:0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+}
+
+.body-card {
+  margin: 1rem;
 }
